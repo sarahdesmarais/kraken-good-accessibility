@@ -60,9 +60,13 @@ html {
 
 @media print {
 
-  header,
-  footer {
+  .no-print {
     display: none;
+  }
+
+  .inset-img {
+    display: none;
+    border-color: #000;
   }
 
 }
